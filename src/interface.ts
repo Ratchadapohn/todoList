@@ -6,3 +6,6 @@ export interface ITask {
   deadline: number;
   description: string;
 }
+export interface Option {
+  value: string;
+}

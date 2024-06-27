@@ -4,7 +4,7 @@ import { CiMenuKebab } from "react-icons/ci";
 
 interface dropdownItemProps {
   icon?: string;
-  options: Array<Option>;
+  options: Option[];
 }
 
 export const Dropdown: React.FC<dropdownItemProps> = ({ options }) => {

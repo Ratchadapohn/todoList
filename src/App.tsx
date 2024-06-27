@@ -1,8 +1,8 @@
-import React, { FC, useState, ChangeEvent, useEffect } from "react";
+import { FC, useState, ChangeEvent, useEffect } from "react";
 import "./App.css";
 import TodoTask from "./components/todoTask";
 import { ITask } from "./interface";
-import image1 from "./assets/17e14b79df28afd24f0e9044766307c2.jpg";
+
 import {
   BsChatRightDotsFill,
   BsCheckCircleFill,
