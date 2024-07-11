@@ -111,12 +111,12 @@ const App: FC = () => {
             onChange={handleChange}
           />
         </div>
-        <div className="p-[10px] pr-[30px] pl-[30px]  h-[28px] hover:shadow-yellow-900 flex justify-center shadow-sm shadow-gray-400 rounded-[20px] bg-white">
+        <div className="p-[5px] pr-[30px] pl-[30px]  h-[28px] hover:shadow-yellow-900 flex justify-center shadow-sm shadow-gray-400 rounded-[20px] bg-white">
           <div className="text-[15px] text-slate-400 pr-[7px]">
             <BsFillCalendar2EventFill />
           </div>
           <input
-            className="text-[15px] text-slate-400"
+            className="text-[15px] h-[18px] text-slate-400"
             type="number"
             placeholder="Deadline in days"
             name="deadline"
